@@ -1,0 +1,33 @@
+# Build / artefatos
+build/
+dist/
+out/
+.vs/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.exe
+*.dll
+
+# Dados do jogo (client) e pacotes grandes
+element/
+*.zip
+*.rar
+*.7z
+
+# Logs e estado de execucao
+*.log
+config/element/
+_temp/
+launcher_crash.log
+tempfile.dat
+
+# Arquivos locais / backup
+*.bak
+test/
